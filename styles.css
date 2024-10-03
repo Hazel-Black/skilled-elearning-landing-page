@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*Colors*/
+  ---main-bg: #ffffff;
+  ---heading-colors: #13183f;
+  ---alt-heading-color: #ffffff;
+  ---footer-bg: #13183f;
+  ---top-nav-btn-bg: #13183f;
+  ---top-nav-btn-bg-hover: #666ca3;
+  ---btn-text-color: #ffffff;
+  ---card-link-color: #f74780;
+  ---card-link-hover-color: #ffa7c3;
+  ---par-color: #83869a;
+  /*gradients*/
+  ---intro-btn-color: linear-gradient(to bottom, #FF6F48,#F02AA6);
+  ---intro-btn-color-hover: linear-gradient(to bottom, rgba(255, 111, 72, 0.5), rgba(240, 42, 166,0.5));
+  ---h3-bg:linear-gradient(to bottom, #FF6F48,#F02AA6);
+  ---bottom-nav-btn-bg: linear-gradient(to bottom, #4851FF,#F02AA6);
+  /*Typography*/
+  ---font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+  background-color: var(---main-bg);
+  color: var(---par-color);
+  font-family: var(---font-family);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 1.25em;
+}
+.top-nav{
+  margin-block: 1em;
+}
+.logo{
+ width: 4.938em;
+ height: 1.25em;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+.dark{
+  background-image: url(/starter-code/assets/logo-dark.svg);
+}
+.top-nav-btn a{
+  background-color: var(---top-nav-btn-bg);
+  color: var(---btn-text-color);
+  text-decoration: none;
+  padding-inline: 1.5em;
+  padding-block: .5em;
+  border-radius: 1.75em;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.top-nav-btn a:hover{
+background-color: var(---top-nav-btn-bg-hover);
+}
+.container{
+ padding-inline: 1.25em;
+}
+.top-container{
+  margin-top: 4em;
+}
+ h1, h3{
+  color: var(---heading-colors);
+ }
+ h1{
+  font-size: 2.5rem;
+  margin-bottom: .6em;
+  font-weight: 800;
+  line-height: 120%;
+ }
+ .top-container p{
+  font-size: 1.125rem;
+  margin-bottom: 2.222em;
+  font-weight: 500;
+  line-height: 150%;
+ }
+.top-container button{
+ border: none;
+ font-size: 1.125rem;
+ padding-inline: 1.778em;
+ padding-block: .889em;
+ border-radius: 1.556em;
+ font-weight: 700;
+ color: var(---btn-text-color);
+ background: var(---intro-btn-color);
+ margin-bottom: 2.667em;
+ cursor: pointer;
+}
+.top-container button:hover{
+  background: var(---intro-btn-color-hover);
+}
+.hero-img{
+  background-image: url(/starter-code/assets/image-hero-mobile@2x.webp);
+  background-position: center;
+  background-size: contain;
+  width: 20.938em;
+  height:20em;
+  margin-bottom: 4em;
+}
+.mid-container{
+ padding-top: 4em;
+}
+.mid-intro-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background: var(---h3-bg);
+padding: 1.333em;
+border-radius: .625em;
+margin-bottom: 2.5em;
+}
+h2{
+  color: var(---alt-heading-color);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+.card-container{
+ margin-bottom: 3em;
+ padding-inline: 1.6em;
+ padding-block-start: 1.143em;
+ padding-block-end: 2em;
+ border-radius: .75em;
+ box-shadow: 0px 25px 50px 0px #06168d34;
+}
+.card-icon{
+position: relative; 
+top: -2.5em;
+width: 3.5em;
+height: 3.5em;
+background-size: contain;
+}
+.animation{
+ background-image: url(/starter-code/assets/icon-animation.svg);
+}
+.design{
+background-image: url(/starter-code/assets/icon-design.svg);
+}
+.photography{
+ background-image: url(/starter-code/assets/icon-photography.svg);
+}
+.crypto{
+background-image: url(/starter-code/assets/icon-crypto.svg);
+}
+.business{
+background-image: url(/starter-code/assets/icon-business.svg);
+}
+.card-container h3{
+  font-size: 1.25rem;
+  margin-bottom: 1.2em;
+  font-weight: 800;
+  line-height: 120%;
+}
+.card-container p{
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+  line-height: 150%;
+}
+.card-container a{
+  text-decoration: none;
+  color: var(---card-link-color);
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 700;
+}
+footer{
+background-color: var(---footer-bg);
+padding-block: 1.333em;
+}
+.light{
+  background-image: url(/starter-code/assets/logo-light.svg);
+}
+.bottom-nav-btn a{
+  background: var(---bottom-nav-btn-bg);
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 150%;
+  padding-inline: 1.333em;
+  padding-block: .583em;
+  border-radius: 1.556em;
+  color: var(---btn-text-color);
+}
