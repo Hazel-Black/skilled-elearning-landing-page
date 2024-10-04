@@ -182,7 +182,7 @@ h2 {
   line-height: 150%;
   font-weight: 700;
 }
-.card-container a:hover{
+.card-container a:hover {
   color: var(---card-link-hover-color);
 }
 footer {
@@ -203,15 +203,14 @@ footer {
   border-radius: 1.556em;
   color: var(---btn-text-color);
 }
-.bottom-nav-btn:hover{
-  padding-inline: .001em;
+.bottom-nav-btn:hover {
+  padding-inline: 0.001em;
   padding-block: 0.5em;
   border-radius: 1.556em;
   background-color: white;
   margin-top: 0em;
 }
-.bottom-nav-btn a:hover{
-
+.bottom-nav-btn a:hover {
   background: var(---bottom-nav-btn-hover);
 }
 @media (min-width: 375px) {
@@ -219,25 +218,24 @@ footer {
     width: 20.938em;
   }
 }
-@media (min-width:768px) {
-  .top-nav{
+@media (min-width: 768px) {
+  .top-nav {
     margin-block: 3.111em;
-    margin-inline: 2.444em
+    margin-inline: 2.444em;
   }
-  .container{
+  .container {
     padding-inline: 0em;
     overflow-x: hidden;
-   }
-   .top-container {
+  }
+  .top-container {
     flex-direction: row;
     padding-inline-start: 2.75em;
     padding-inline-end: 0em;
     margin-top: 0em;
-  
   }
   .intro-container {
     max-width: 20.5em;
-   
+
     margin-bottom: 0em;
   }
   .hero-img {
@@ -251,44 +249,39 @@ footer {
     top: -4em;
     left: 2em;
   }
-  .mid-container{
+  .mid-container {
     padding-top: 0em;
   }
-  .grid{
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 20.5em 20.5em;
     grid-template-rows: 21.875em 21.875em;
     column-gap: 1.5em;
-    row-gap: 3.75em; 
+    row-gap: 3.75em;
     place-content: center;
     margin-bottom: 9em;
   }
-  .mid-intro-container{
+  .mid-intro-container {
     place-self: center;
     padding-top: 4em;
     padding-bottom: 14.28em;
     margin-bottom: 0em;
   }
-  .card-container{
+  .card-container {
     margin-bottom: 0em;
   }
-
 }
-@media (min-width:788px) {
-  .hero-img{
+@media (min-width: 788px) {
+  .hero-img {
     top: -1em;
     left: 5em;
-
   }
 }
 
-
 @media (min-width: 1440px) {
-
   .top-nav {
-    
     margin-inline: 8.889em;
   }
   .logo {
@@ -303,7 +296,9 @@ footer {
 
   .top-container {
     padding-inline-start: 10em;
-    padding-block-start: 4em;
+    padding-block-start: 0em;
+    align-items: start;
+    max-height: 45em;
   }
   .intro-container {
     max-width: 29em;
@@ -317,6 +312,7 @@ footer {
   }
   .top-container button {
     margin-bottom: 0em;
+    
   }
 
   .hero-img {
@@ -327,38 +323,34 @@ footer {
     width: 58.5em;
     height: 58.5em;
     margin: 0;
-    top: -10em;
+    top: -20em;
     left: 10em;
-   
   }
-  .mid-container{
-
+  .mid-container {
     padding-block-start: 0em;
-    padding-block-end: 9em;
   }
-  .grid{
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 22em 22em 22em;
     grid-template-rows: 21.875em 21.875em;
     column-gap: 2em;
-    row-gap: 5.25em; 
+    row-gap: 5.25em;
     padding-inline: 10em;
   }
 
-  .mid-intro-container{
+  .mid-intro-container {
     padding-block-start: 4em;
     padding-block-end: 9em;
     padding-inline: 2em;
     max-width: 20em;
     min-height: 21.875em;
   }
-  h2{
+  h2 {
     font-size: 2rem;
-    
   }
-  .card-container{
+  .card-container {
     margin-inline: 1em;
     max-width: 22em;
     min-height: 20.125em;
@@ -367,27 +359,26 @@ footer {
     padding-inline: 2em;
     padding-block-end: 2.278em;
   }
-  .card-container h3{
-    font-size:1.5rem ;
+  .card-container h3 {
+    font-size: 1.5rem;
   }
-  .card-container p{
+  .card-container p {
     font-size: 1.125rem;
     font-weight: 500;
   }
-  .card-container a{
-    
+  .card-container a {
   }
-.bottom-nav{
-  margin-inline: 11em;
-  margin-block: 1.5em;
+  .bottom-nav {
+    margin-inline: 11em;
+    margin-block: 1.5em;
+  }
+  .bottom-nav-btn a {
+    padding-inline: 1.778em;
+    padding-block: 0.889em;
+  }
 }
-.bottom-nav-btn a{
-  padding-inline: 1.778em ;
-  padding-block: .889em;
-}
-}
-@media (min-width:1670px) {
-  .hero-img{
+@media (min-width: 1670px) {
+  .hero-img {
     background-size: contain;
     width: 65.5em;
     height: 65.5em;
