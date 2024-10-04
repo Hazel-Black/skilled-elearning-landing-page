@@ -63,6 +63,10 @@ background-color: var(---top-nav-btn-bg-hover);
  padding-inline: 1.25em;
 }
 .top-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 4em;
 }
  h1, h3{
@@ -192,6 +196,10 @@ padding-block: 1.333em;
 @media (min-width:375px) {
   .hero-img{
     width: 20.938em;
-    height:20em;
   }
+}
+
+
+@media (min-width:1400px) {
+  
 }
