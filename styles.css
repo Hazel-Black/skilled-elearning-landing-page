@@ -44,7 +44,7 @@ nav{
  background-repeat: no-repeat;
 }
 .dark{
-  background-image: url(/starter-code/assets/logo-dark.svg);
+  background-image: url(starter-code/assets/logo-dark.svg);
 }
 .top-nav-btn a{
   background-color: var(---top-nav-btn-bg);
@@ -96,10 +96,11 @@ background-color: var(---top-nav-btn-bg-hover);
   background: var(---intro-btn-color-hover);
 }
 .hero-img{
-  background-image: url(/starter-code/assets/image-hero-mobile@2x.webp);
+  background-image: url(starter-code/assets/image-hero-mobile@2x.webp);
   background-position: center;
   background-size: contain;
-  width: 20.938em;
+  background-repeat: no-repeat;
+  width: 100%;
   height:20em;
   margin-bottom: 4em;
 }
@@ -137,19 +138,19 @@ height: 3.5em;
 background-size: contain;
 }
 .animation{
- background-image: url(/starter-code/assets/icon-animation.svg);
+ background-image: url(starter-code/assets/icon-animation.svg);
 }
 .design{
-background-image: url(/starter-code/assets/icon-design.svg);
+background-image: url(starter-code/assets/icon-design.svg);
 }
 .photography{
- background-image: url(/starter-code/assets/icon-photography.svg);
+ background-image: url(starter-code/assets/icon-photography.svg);
 }
 .crypto{
-background-image: url(/starter-code/assets/icon-crypto.svg);
+background-image: url(starter-code/assets/icon-crypto.svg);
 }
 .business{
-background-image: url(/starter-code/assets/icon-business.svg);
+background-image: url(starter-code/assets/icon-business.svg);
 }
 .card-container h3{
   font-size: 1.25rem;
@@ -175,7 +176,7 @@ background-color: var(---footer-bg);
 padding-block: 1.333em;
 }
 .light{
-  background-image: url(/starter-code/assets/logo-light.svg);
+  background-image: url(starter-code/assets/logo-light.svg);
 }
 .bottom-nav-btn a{
   background: var(---bottom-nav-btn-bg);
@@ -187,4 +188,10 @@ padding-block: 1.333em;
   padding-block: .583em;
   border-radius: 1.556em;
   color: var(---btn-text-color);
+}
+@media (min-width:375px) {
+  .hero-img{
+    width: 20.938em;
+    height:20em;
+  }
 }
